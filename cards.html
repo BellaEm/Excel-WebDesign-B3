@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/99899855f6.js" crossorigin="anonymous"></script>
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and Minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Cards</title>
+</head>
+<body class="pink lighten-5">
+    <div class="container">
+        <h1 class="pink-text text-darken">Cards</h1>
+
+        <!-- Simple Card -->
+        <!-- Row 1 -->
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eaque consequatur corporis delectus, voluptates ullam itaque pariatur minus veritatis temporibus labore, sint, fuga dignissimos soluta blanditiis corrupti quia. Illum, atque!</p>
+                    </div>
+                </div>
+                <!-- Add Color -->
+                <div class="card pink accent-1">
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eaque consequatur corporis delectus, voluptates ullam itaque pariatur minus veritatis temporibus labore, sint, fuga dignissimos soluta blanditiis corrupti quia. Illum, atque!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <!-- Card With Title -->
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Card With Title</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero veritatis laborum odit facilis, maxime, reprehenderit, est eveniet similique qui quo quidem tempora quae dicta! Saepe illum voluptate ipsa temporibus tenetur!</p>
+                    </div>
+                    <!-- Add Link -->
+                    <div class="card-action">
+                        <a href="">Read More</a>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Row 2 -->
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/img9.jpg" alt="">
+                        <span class="card-title black-text">Image Card</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur et adipisci, iure dicta veniam nesciunt facilis quis eius a modi!</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <!-- Card With Image & Floating Button -->
+                <div class="card lime">
+                    <div class="card-image">
+                        <img src="images/img8.jpg" alt="">
+                        <span class="card-title black-text">Image & Button</span>
+                        <a href="#" class="btn-floating halfway-fab waves-effect waves-light blue">
+                            <i class="material-icons">add</i> 
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil blanditiis quam fuga accusamus vitae tempore distinctio, laboriosam maxime non assumenda.</p>
+                    </div>
+                </div>
+            </div>
+        <!-- end of row -->
+        </div>
+
+        <!-- Horizontal Card -->
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card horizontal">
+                    <div class="card-image">
+                        <img src="images/img10.jpg" alt="">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <span class="card-title">Horizontal Card</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-image waves-effect waves-light waves-block">
+                        <img src="images/img0.jpg" alt="" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator">Card Reveal
+                            <i class="material-icons">more_vert</i>
+                        </span>
+                    </div>
+                    <!-- Inside Card Reveal -->
+                    <div class="card-reveal">
+                        <span class="card-title">Hello World
+                            <i class="material-icons secondary-content">close</i>
+                        </span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab a cumque consequuntur. Sequi corrupti officia ipsum! Veniam, id? Recusandae, et.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Tabbed Card -->
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card lime lighten-3">
+                    <div class="card-content">
+                        <span class="card-title">Tabbed Card</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, expedita?</p>
+                    </div>
+                    <div class="card-tabs">
+                        <ul class="tabs tabs-fixed-width lime lighten-3">
+                            <li class="tab">
+                                <a href="#tab1">Tab 1</a>
+                            </li>
+                            <li class="tab">
+                                <a href="#tab2">Tab 2</a>
+                            </li>
+                            <li class="tab">
+                                <a href="#tab3">Tab 3</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-content">
+                        <div id="tab1">Tab 1 Content.</div>
+                        <div id="tab2">Tab 2 Content.</div>
+                        <div id="tab3">Tab 3 Content.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Card Panel -->
+        <div class="row">
+            <div class="col s12 m3">
+                <div class="card-panel red z-depth-1">
+                    <span class="white-text">
+                        <div class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error id quo nesciunt facere porro aspernatur et repellat aperiam debitis at.</div>
+                    </span>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card-panel red lighten-1 z-depth-2">
+                    <span class="white-text">
+                        <div class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error id quo nesciunt facere porro aspernatur et repellat aperiam debitis at.</div>
+                    </span>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card-panel red lighten-2 z-depth-3">
+                    <span class="white-text">
+                        <div class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error id quo nesciunt facere porro aspernatur et repellat aperiam debitis at.</div>
+                    </span>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card-panel red lighten-3 z-depth-4">
+                    <span class="white-text">
+                        <div class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error id quo nesciunt facere porro aspernatur et repellat aperiam debitis at.</div>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- end of container -->
+        
+        <div style="height: 1000px;"></div>
+    </div>
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Compiled & Minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('.tabs').tabs();
+    })
+</script>
+</body>
+</html>

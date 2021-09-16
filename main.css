@@ -1,0 +1,30 @@
+.progress .determinate {
+    background: rgb(117, 194, 3);
+}
+
+.progress {
+    background: rgb(190, 243, 112);
+}
+
+.indeterminate::before {
+    background: rgb(117, 194, 3) !important;
+}
+.indeterminate::after {
+    background: rgb(117, 194, 3) !important;
+}
+
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
+    background-color: indianred;
+}
+
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:before, [type="radio"].with-gap:checked+span:after {
+    border: 2px solid #e0dcdc;
+}
+
+html{
+    color: indianred;
+}
+
+.input-field>label {
+    color: ivory;
+}
